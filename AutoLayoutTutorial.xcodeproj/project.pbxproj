@@ -48,16 +48,6 @@
 			path = AutoLayoutTutorial;
 			sourceTree = "<group>";
 		};
-		CE14B7B92CBD7EAE00CE42DE /* AutoLayoutTutorialTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = AutoLayoutTutorialTests;
-			sourceTree = "<group>";
-		};
-		CE14B7C32CBD7EAE00CE42DE /* AutoLayoutTutorialUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = AutoLayoutTutorialUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,8 +79,6 @@
 			isa = PBXGroup;
 			children = (
 				CE14B7A22CBD7EAC00CE42DE /* AutoLayoutTutorial */,
-				CE14B7B92CBD7EAE00CE42DE /* AutoLayoutTutorialTests */,
-				CE14B7C32CBD7EAE00CE42DE /* AutoLayoutTutorialUITests */,
 				CE14B7A12CBD7EAC00CE42DE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -143,9 +131,6 @@
 			dependencies = (
 				CE14B7B82CBD7EAE00CE42DE /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				CE14B7B92CBD7EAE00CE42DE /* AutoLayoutTutorialTests */,
-			);
 			name = AutoLayoutTutorialTests;
 			packageProductDependencies = (
 			);
@@ -165,9 +150,6 @@
 			);
 			dependencies = (
 				CE14B7C22CBD7EAE00CE42DE /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				CE14B7C32CBD7EAE00CE42DE /* AutoLayoutTutorialUITests */,
 			);
 			name = AutoLayoutTutorialUITests;
 			packageProductDependencies = (
@@ -293,9 +275,8 @@
 				INFOPLIST_FILE = AutoLayoutTutorial/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -320,9 +301,8 @@
 				INFOPLIST_FILE = AutoLayoutTutorial/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
